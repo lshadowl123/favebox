@@ -1811,3 +1811,50 @@ ul.info {
 .info li {
     list-style-type: disc!important;
 }
+/*Moje produkty*/
+.produkty-title{
+  font-size: 18px;
+  text-align: left;
+  text-transform: uppercase;
+  background: linear-gradient(to right, rgb(163,95,5) 0%, rgb(217,161,13) 5%, rgb(239,194,56) 11%, rgb(217,161,13) 17%, rgb(179,115,7) 22%, rgb(191,129,18) 27%, rgb(239,194,56) 35%, rgb(227,177,41) 42%, rgb(212,133,10) 48%, rgb(177,115,7) 54%, rgb(228,202,50) 60%, rgb(206,151,13) 68%, rgb(210,160,19) 73%, rgb(208,128,8) 77%, rgb(175,116,7) 82%, rgb(203,143,17) 88%, rgb(155,102,8) 94%, rgb(207,148,10) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 18px 0 10px;
+}
+.product{
+  background-image: url(../img/prod_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 23.66%;
+  min-width: 195px;
+  height: 260px;
+  display: inline-block;
+  vertical-align: top;
+  background: #333333;
+  color: #ffffff;
+  border-radius: 19px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  padding: 0;
+  }
+.img-prod img {
+    margin-top: 11px;
+}
+.btn-zl{
+  width: 47px;
+  height: 47px;
+  display: inline-block;
+  float: left;
+  margin-left: 18px;
+  background-image: url(../img/btn-zl.png);
+  cursor: pointer;
+}
+.btn-up{
+  width: 47px;
+  height: 47px;
+  display: inline-block;
+  float: right;
+  background-image: url(../img/btn-up.png);
+  margin-right: 14px;
+  cursor: pointer;
+}
