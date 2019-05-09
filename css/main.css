@@ -1724,18 +1724,52 @@ footer {
   padding: 2px 0px 0 7px;
   border-radius: 8px;
 }
+.profile-money input {
+    width: 72px;
+    height: 17px;
+    border-radius: 5px;
+    background: #282828;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: right;
+    padding: 6px;
+}
+.profile-money a {
+    display: inline-block;
+    vertical-align: middle;
+}
+.btn-profile {
+    background: #636363;
+    color: #333333;
+    padding: 2px 6px;
+    font-size: 9px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 500;
+    box-shadow: 0 0 5px #000;
+    float: right;
+    margin-right: 28px;
+    margin-top: 6px;
+}
 .my-avatar{
   width: 65px;
   height: 65px;
   float: left;
 }
-.avatar-name{
-  font-size: 12px;
-  float: right;
+.avatar-name {
+    font-size: 12px;
+    float: right;
+    width: 113px;
 }
 .avatar-name img{
   width: 12px;
   height: 12px;
+}
+.profile-money {
+    margin-top: 7px;
 }
 .kontrakty {
     background: #333333;
@@ -1879,6 +1913,17 @@ ul.info {
   float: right;
   background-image: url(../img/btn-up.png);
   margin-right: 14px;
+}
+.profile-zl {
+    background-image: url(../img/m-money.png);
+    width: 18px;
+    height: 16px;
+    float: right;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    margin-right: 3px;
+    display: inline-block;
+    vertical-align: middle;
 }
 .btn-zl:hover, .btn-up:hover {
     transform: scale(1.17);
