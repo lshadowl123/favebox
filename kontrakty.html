@@ -354,5 +354,18 @@ $('.nav-toggle').on('click', function(){
   $('#menu').toggleClass('active');
 });
 </script>
+<script type="text/javascript">
+(function($) {
+  var $window = $(window),
+      $html = $('.item');
+
+  $window.resize(function resize() {
+      if ($window.width() <=990 ) {
+          return $html.addClass('suka');
+      }
+      $html.removeClass('suka');
+  }).trigger('resize');
+})(jQuery);
+</script>
 </body>
 </html>
