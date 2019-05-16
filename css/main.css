@@ -1684,6 +1684,106 @@ ul.info {
   .widget-post-title {
     font-size: 1.5em;
   }
+  .kontrakty {
+      padding: 15px 20px;
+  }
+  .item {
+    height: 300px;
+    width: 320px;
+    margin-bottom: 20px;
+}
+.item:nth-child(odd) {
+    margin-right: 5px!important;
+}
+.close-btn {
+    position: relative;
+    float: right;
+    right: 14px;
+    bottom: 300px;
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    line-height: 60px;
+    color: #333333;
+    background: #C6C6C6;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 40px;
+    text-shadow: 0 0 3px #333;
+}
+.item-txt {
+    margin-top: 20px;
+    font-size: 37px;
+    line-height: 46px;
+}
+.col-item-2 {
+    width: 100%;
+    margin-top: 50px;
+}
+.gold-btn {
+    font-size: 68px;
+    width: 100%;
+    height: 85px;
+    max-width: 585px;
+}
+.col-item-1{
+  display: none;
+}
+.col-item-m{
+    width: 49%;
+    display: inline-block;
+    margin: 10px auto 0;
+    text-align: center;
+    font-size: 31px;
+    line-height: 38px;
+    font-weight: 300;
+    font-family: Roboto;
+    vertical-align: text-bottom;
+}
+.col-item-m b {
+    font-size: 31px;
+    color: #F2AD22;
+    font-weight: 500;
+}
+ul.info {
+    font-size: 28px;
+    margin-top: 64px;
+    line-height: 36px;
+    padding-left: 20px;
+}
+.kontrakty-title {
+    font-size: 54px;
+  }
+  .produkty-title {
+    font-size: 43px;
+    text-align: left;
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(163,95,5) 0%, rgb(217,161,13) 5%, rgb(239,194,56) 11%, rgb(217,161,13) 17%, rgb(179,115,7) 22%, rgb(191,129,18) 27%, rgb(239,194,56) 35%, rgb(227,177,41) 42%, rgb(212,133,10) 48%, rgb(177,115,7) 54%, rgb(228,202,50) 60%, rgb(206,151,13) 68%, rgb(210,160,19) 73%, rgb(208,128,8) 77%, rgb(175,116,7) 82%, rgb(203,143,17) 88%, rgb(155,102,8) 94%, rgb(207,148,10) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 38px 0 10px;
+}
+.product {
+      width: 45%;
+      min-width: 330px;
+      height: 445px;
+      border-radius: 32px;
+      background-size: 330px;
+}
+.product:nth-child(even) {
+    margin-right: 0;
+    margin: 0 0px 30px 15px;
+}
+.img-prod img {
+    margin-top: 11px;
+    width: 328px;
+    height: 328px;
+}
+.btn-zl, .btn-up {
+    width: 80px;
+    height: 80px;
+    background-size: 80px;
+}
 }
 @media (max-width: 578px) {
   .container {
