@@ -253,7 +253,9 @@ nav ul li a:hover {
   color: #fff;
   text-decoration: none;
 }
-
+.profile-img {
+  display: none;
+}
 /*Calousel*/
 @-webkit-keyframes scroll {
   0% {
@@ -958,7 +960,7 @@ ul.info {
 .prod-t.timers {
     padding-top: 10px;
 }
-
+.col-item-m{display: none;}
 @media (max-width: 768px) {
   /* показываем кнопку для переключения верхней навигации */
   .nav-toggle, .btn-head-m, .money, .btn-m  {
@@ -1424,6 +1426,16 @@ ul.info {
   .topbar{
     padding: 20px 0 40px;
   }
+  .profile{display: none;}
+
+  .profile-img{
+    position: absolute;
+    display: block;
+    top: 30px;
+    right: 170px;
+    width: 110px;
+    height: 110px;
+  }
   .logo {
     width: 318px;
     height: 106px;
@@ -1790,6 +1802,15 @@ ul.info {
     max-width: 100%;
     padding: 0 15px;
   }
+  .profile{display: none;}
+  .profile-img {
+      position: absolute;
+      display: block;
+      top: 10px;
+      right: 90px;
+      width: 80px;
+      height: 80px;
+  }
   .logo {
     max-width: 225px;
     width: 100%;
@@ -1832,22 +1853,23 @@ ul.info {
     height: 40px;
     box-shadow: 0px 0px 4px #000000;
 }
-  a.btn-head-m {
-      background: #636363;
-      display: inline-block;
-      padding: 0;
-      height: 100%;
-      width: 50%;
-      margin-left: 8px;
-      color: #333333;
-      font-size: 33px;
-      font-family: Roboto;
-      text-align: center;
-      font-weight: 600;
-      border-radius: 4px;
-      vertical-align: middle;
-      margin-top: 20px;
-  }
+a.btn-head-m {
+    background: #636363;
+    display: inline-block;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 110px;
+    margin-left: 8px;
+    color: #333333;
+    font-size: 26px;
+    font-family: Roboto;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-top: 20px;
+}
   .social{
     display: none;
   }
@@ -2152,5 +2174,85 @@ ul.info {
   .footer-col:last-child {
     text-align: center;
     margin-bottom: 0;
+  }
+  /*Kontrakty*/
+  .col-item-1{
+    display: none;
+  }
+  .col-item-m {
+      width: 49%;
+      display: inline-block;
+      margin: 10px auto 0;
+      text-align: center;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 300;
+      font-family: Roboto;
+      vertical-align: text-bottom;
+  }
+  .col-item-m b {
+      font-size: 20px;
+      color: #F2AD22;
+      font-weight: 500;
+  }
+  .col-item-2 {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Roboto;
+}
+.gold-btn {
+    font-size: 24px;
+    line-height: 26px;
+    width: 234px;
+    height: 34px;
+    display: block;
+    margin: 0 auto;
+}
+.item {
+    display: block;
+    height: 175px;
+    margin: 0 auto!important;
+    width: 90%;
+}
+  ul.info {
+      font-size: 28px;
+      margin-top: 64px;
+      line-height: 36px;
+      padding-left: 20px;
+  }
+  .kontrakty-title {
+      font-size: 33px;
+    }
+    .produkty-title {
+      font-size: 43px;
+      text-align: left;
+      text-transform: uppercase;
+      background: linear-gradient(to right, rgb(163,95,5) 0%, rgb(217,161,13) 5%, rgb(239,194,56) 11%, rgb(217,161,13) 17%, rgb(179,115,7) 22%, rgb(191,129,18) 27%, rgb(239,194,56) 35%, rgb(227,177,41) 42%, rgb(212,133,10) 48%, rgb(177,115,7) 54%, rgb(228,202,50) 60%, rgb(206,151,13) 68%, rgb(210,160,19) 73%, rgb(208,128,8) 77%, rgb(175,116,7) 82%, rgb(203,143,17) 88%, rgb(155,102,8) 94%, rgb(207,148,10) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 38px 0 10px;
+  }
+  .product {
+        width: 45%;
+        min-width: 330px;
+        height: 445px;
+        border-radius: 32px;
+        background-size: 330px;
+  }
+  .product:nth-child(even) {
+      margin-right: 0;
+      margin: 0 0px 30px 15px;
+  }
+  .img-prod img {
+      margin-top: 11px;
+      width: 328px;
+      height: 328px;
+  }
+  .btn-zl, .btn-up {
+      width: 80px;
+      height: 80px;
+      background-size: 80px;
   }
 }
