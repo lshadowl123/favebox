@@ -448,6 +448,11 @@ nav ul li a:hover {
   text-align: center;
   font-family: Roboto;
 }
+.col-full {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+}
 
 /*Timer*/
 .timers {
@@ -882,6 +887,9 @@ a.close-btn:hover {
 }
 .gold-btn:hover {
   color:#000000;
+}
+.lg-btn {
+  width: 360px;
 }
 ul.info {
     padding: 0 20px;
@@ -2228,16 +2236,16 @@ a.btn-head-m {
 }
 .item {
     display: inline-block;
-    height: 405px;
+    height: 100%;
     margin: 0 auto!important;
     width: 100%;
 }
-  ul.info {
-      font-size: 28px;
-      margin-top: 64px;
-      line-height: 36px;
-      padding-left: 20px;
-  }
+ul.info {
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 24px;
+    padding-left: 20px;
+}
   .kontrakty-title {
       font-size: 33px;
     }
