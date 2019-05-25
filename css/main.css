@@ -969,6 +969,45 @@ ul.info {
     padding-top: 10px;
 }
 .col-item-m{display: none;}
+
+/* Pruduct page */
+.product-btn a {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #333333;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 6px;
+    margin-right: 2px;
+    width: 111px;
+}
+.product-btn a:hover,.product-btn a:active{
+  color: #F2AA19;
+}
+.small.pagination li a {
+    padding: 0 1px;
+    line-height: 13px;
+}
+ul.pagination.small {
+    float: right;
+    margin-top: 5px;
+}
+.product-name p {
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.gds {
+  height: 275px;
+}
+.line{
+  height: 10px;
+
+}
 @media (max-width: 768px) {
   /* показываем кнопку для переключения верхней навигации */
   .nav-toggle, .btn-head-m, .money, .btn-m  {
