@@ -1008,6 +1008,48 @@ ul.pagination.small {
   height: 10px;
 
 }
+
+/* podpowiedz */
+  /*
+  .question {
+    font-size: 14px;
+    width: 49%;
+    background: #333333;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 7px 2px;
+    display: inline-block;
+    vertical-align: top;
+  } */
+  .question:nth-child(even) {
+    float: right;
+  }
+.question {
+    font-size: 14px;
+    width: 49%;
+    background: #333333;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 7px 2px;
+    float: left;
+}
+  .question b{
+    font-size: 16px;
+    color: #F2AA19;
+  }
+  h3.gold-subtitle {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(163,95,5) 0%, rgb(217,161,13) 5%, rgb(239,194,56) 11%, rgb(217,161,13) 17%, rgb(179,115,7) 22%, rgb(191,129,18) 27%, rgb(239,194,56) 35%, rgb(227,177,41) 42%, rgb(212,133,10) 48%, rgb(177,115,7) 54%, rgb(228,202,50) 60%, rgb(206,151,13) 68%, rgb(210,160,19) 73%, rgb(208,128,8) 77%, rgb(175,116,7) 82%, rgb(203,143,17) 88%, rgb(155,102,8) 94%, rgb(207,148,10) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.question ol {
+    padding-left: 15px;
+}
+
 @media (max-width: 768px) {
   /* показываем кнопку для переключения верхней навигации */
   .nav-toggle, .btn-head-m, .money, .btn-m  {
