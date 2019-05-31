@@ -1021,21 +1021,51 @@ ul.pagination.small {
     display: inline-block;
     vertical-align: top;
   } */
-  .question:nth-child(even) {
+/*  .question:nth-child(even) {
     float: right;
   }
-.question {
+  */
+  .q-col-l{
+    float: left;
+    width: 50%;
+    padding-right: 7px;
+    margin-top: 10px;
+  }
+  .q-col-r{
+    float: right;
+    width: 50%;
+    padding-left: 7px;
+    margin-top: 10px;
+  }
+  .quest{
     font-size: 14px;
-    width: 49%;
     background: #333333;
     border-radius: 16px;
     padding: 10px;
-    margin: 7px 2px;
-    float: left;
+    margin: 0 0 15px 0px;
+    word-break: break-word;
+    letter-spacing: normal;
+  }
+  .quest ol {
+    margin-left: 15px;
 }
-  .question b{
+  .question {
+      font-size: 14px;
+      width: 49%;
+      background: #333333;
+      border-radius: 16px;
+      padding: 10px;
+      margin: 7px 4px;
+      float: left;
+  }
+  .question b, .quest b{
     font-size: 16px;
     color: #F2AA19;
+  }
+  .quest-ico {
+    width:30px;
+    display:inline-block;
+    vertical-align:middle;
   }
   h3.gold-subtitle {
     font-size: 20px;
@@ -1169,6 +1199,10 @@ ul.pagination.small {
   .footer-col:last-child {
     text-align: center;
     margin-bottom: 0;
+  }
+  .q-col-r, .q-col-l {
+    width: 100%;
+    padding: 0;
   }
 
 }
