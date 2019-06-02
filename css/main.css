@@ -1235,6 +1235,58 @@ section {
 }
 /* End Registration */
 
+/* Another profile */
+.another-profile {
+  width: 59%;
+  float: left;
+}
+.profile-avatar{
+  width: 117px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 17px;
+}
+.profile-name{
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.my-friends{
+    padding-top: 30px;
+    width: 123px;
+    margin: 0 auto 40px;
+}
+.box-col.box-another {
+  width: 156px;
+  min-width: 156px;
+  height: 183px;
+  margin-right: 0;
+  margin-left: 10px;
+}
+.text-box-another {
+    font-size: 13px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 300;
+    margin-top: -20px;
+}
+.text-box-another span {
+    color: #F2AA19;
+    font-weight: bold;
+}
+.gds-another {
+    height: 231px;
+}
+.prod-top img{
+  margin-top: 0px;
+}
+.box-col.box-another:hover img {
+    transform: scale(1.00);
+}
+.text-box-another-m{
+  display: none;
+}
+
 @media (max-width: 768px) {
   /* показываем кнопку для переключения верхней навигации */
   .nav-toggle, .btn-head-m, .money, .btn-m  {
@@ -1546,6 +1598,24 @@ section {
     background-size: 41px;
     margin-right: 12px;
 }
+.box-col.box-another {
+    width: 140px;
+    min-width: 139px;
+    height: 164px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.my-friends {
+    padding-top: 22px;
+    width: 110px;
+    margin: 0 auto 40px;
+}
+.profile-name {
+    font-size: 23px;
+}
+.profile-avatar {
+    width: 100px;
+}
 }
 @media (max-width:991px) and (min-width: 769px){
   .logo {
@@ -1701,6 +1771,54 @@ section {
 }
 .item.suka:nth-child(3n+3){
   margin: 0 auto;
+}
+.profile-name {
+    font-size: 22px;
+}
+.profile-avatar {
+    width: 95px;
+}
+.box-col.box-another {
+    width: 118px;
+    min-width: 118px;
+    height: 118px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.another-profile {
+    width: 43%;
+    float: none;
+}
+.box-col.box-another-m {
+    width: 254px;
+    min-width: 254px;
+}
+.my-friends {
+    padding-top: 10px;
+    width: 85px;
+    margin: 0 auto 20px;
+}
+.text-box-another {
+    font-size: 16px;
+}
+.text-box-another-m span {
+    color: #F2AA19;
+    font-weight: bold;
+}
+.text-box-st {
+  display: none;
+}
+.text-box-another-m {
+    display: inline-block;
+    vertical-align: middle;
+    width: 115px;
+    font-size: 16px;
+    text-align: center;
+}
+.box-col.box-another-m img {
+    width: 130px;
+    display: inline-block;
+    vertical-align: middle;
 }
 }
 
@@ -2077,6 +2195,52 @@ ul.info {
     width: 80px;
     height: 80px;
     background-size: 80px;
+}
+.another-profile {
+    width: 100%;
+    margin-bottom: 30px;
+    float: none;
+}
+.box-col.box-another {
+    width: 215px;
+    min-width: 215px;
+    height: 215px;
+}
+.my-friends {
+    width: 153px;
+    margin: 0 auto 10px;
+}
+.text-box-another {
+    font-size: 30px;
+}
+.box-col.box-another-m {
+    width: 445px;
+    min-width: 445px;
+}
+.text-box-st {
+  display: none;
+}
+.text-box-another-m {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+}
+.box-col.box-another-m img {
+    width: 240px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.text-box-another-m span {
+    color: #F2AA19;
+    font-weight: bold;
+}
+.product-name p {
+    font-size: 30px;
+}
+h3.gold-subtitle {
+    font-size: 44px;
 }
 }
 @media (max-width: 578px) {
@@ -2550,6 +2714,54 @@ ul.info {
       width: 80px;
       height: 80px;
       background-size: 80px;
+  }
+
+  .another-profile {
+      width: 100%;
+      margin-bottom: 30px;
+      float: none;
+  }
+  .box-col.box-another {
+      width: 33%;
+      min-width: 33%;
+      height: 185px;
+      float: left;
+  }
+  .my-friends {
+      width: 153px;
+      margin: 0 auto 20px;
+  }
+  .text-box-another {
+      font-size: 18px;
+  }
+  .box-col.box-another-m {
+      width: 63%;
+      min-width: 63%;
+  }
+  .text-box-st {
+    display: none;
+  }
+  .text-box-another-m {
+      display: inline-block;
+      vertical-align: middle;
+      width: 130px;
+      font-size: 18px;
+      text-align: center;
+  }
+  .box-col.box-another-m img {
+      width: 130%;
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .text-box-another-m span {
+      color: #F2AA19;
+      font-weight: bold;
+  }
+  .product-name p {
+      font-size: 18px;
+  }
+  h3.gold-subtitle {
+      font-size: 34px;
   }
 }
 
