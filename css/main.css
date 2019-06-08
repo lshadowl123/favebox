@@ -1481,6 +1481,51 @@ form.formular {
 .formular input[type="submit"]:hover {
   background-image: linear-gradient(to right, rgb(179,115,7) 0%, rgb(191,129,18) 12%, rgb(239,194,56) 31%, rgb(227,177,41) 40%, rgb(212,133,10) 70%, rgb(177,115,7) 90%, rgb(228,202,50) 120%);
 }
+
+/* Box stat */
+.box-stat {
+    background: #333333;
+    width: 252px;
+    height: 79px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.box-img img{
+    width: 100%;
+    max-width: 106px;
+    display: inline-block;
+    float: left;
+    margin: -15px 20px -15px -15px;
+}
+.stat-info {
+    width: 65%;
+    margin-left: 35%;
+    text-align: center;
+    padding: 5px 20px;
+}
+.stat-inf{
+  font-size: 13px;
+  font-weight: 300;
+}
+.stat-inf span{
+  color: #F2AA19;
+  font-weight: 600;
+}
+.stat-price {
+    font-size: 20px;
+    background: #C6C6C6;
+    color: #333333;
+    border-radius: 6px;
+    font-weight: 500;
+    box-shadow: 0 0 5px #000;
+    width: 100%;
+    max-width: 80px;
+    margin: 0 auto 5px;
+}
+.box-stat:nth-child(3n+2) {
+    margin: 0 31px 0 26px;
+}
 @media (max-width: 768px) {
   /* показываем кнопку для переключения верхней навигации */
   .nav-toggle, .btn-head-m, .money, .btn-m  {
@@ -1844,6 +1889,29 @@ form.formular {
     font-size: 13px;
     padding: 3px 4px;
 }
+.box-stat {
+    height: 75px;
+    border-radius: 14px;
+    margin-top: 25px;
+    width: 230px;
+}
+.box-stat:nth-child(3n+2) {
+    margin: 0 21px 0 16px;
+}
+.box-img img {
+    max-width: 95px;
+    margin: -10px 5px -15px -5px;
+}
+.stat-info {
+    width: 65%;
+    margin-left: 35%;
+    text-align: center;
+    padding: 5px 0px;
+}
+.stat-price {
+    font-size: 18px;
+    line-height: 1.3em;
+  }
 }
 @media (max-width:991px) and (min-width: 769px){
   .logo {

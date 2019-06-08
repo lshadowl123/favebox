@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="pl-PL">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <meta name="description" content="">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick.min.js"></script>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/slider.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <script src="js/editor.js"></script>
+</head>
+<body>
+  <header style="padding: 15px 0 0;">
+    <div class="container topbar">
+      <div class="logo">
+        <a href="#"><img src="img/logo.png" class="logo"></a>
+      </div>
+      <div class="profile-img">
+        <img src="img/my-avatar.png" alt="">
+      </div>
+      <div class="profile">
+        <img class="my-avatar" src="img/my-avatar.png" alt="">
+        <div class="avatar-name">
+          <p>Name User</p>
+          <div class="profile-money">
+            <a href="#"><img src="img/m-plus.png"></a>
+            <input type="text" name="" value="">
+            <div class="profile-zl"></div>
+            <a href="" class="btn-profile">wyjście</a>
+          </div>
+        </div>
+      </div>
+      <div class="social" style="display:none;">
+        <a href="#"><img src="img/inst.png"></a>
+        <a href="#"><img src="img/fb.png"></a>
+        <a href="#"><img src="img/gplus.png"></a>
+        <a href="#" class="btn-head">wejść</a>
+      </div>
+
+    </div>
+    <div class="container">
+      <nav class="menu">
+        <div class="nav-toggle"><span></span></div>
+        <ul id="menu">
+          <li class="money">
+            <a href="#"><img src="img/m-plus.png"></a>
+            <input type="text" name="" value="">
+            <a href=""><img src="img/m-money.png"></a>
+          </li>
+          <li><a href="index.html">pudełka</a></li>
+          <li><a href="kontrakty.html">kontrakty</a></li>
+          <li><a href="wysylka.html">wysyłka</a></li>
+          <li><a href="towary.html">towary</a></li>
+          <li><a href="podpowiedz.html">podpowiedź</a></li>
+          <li><a href="bonusy.html">bonusy</a></li>
+          <li class="btn-m"><a href="login.html">wyjście</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+  <!-- Profile  -->
+  <div class="container">
+    <div class="profile-info">
+      <div class="profile-avatar">
+        <img src="img/my-avatar.png" alt="">
+        <div class="social-profile">
+          <p>połączone konta</p>
+          <a href="#"><img src="img/inst.png"></a>
+          <a href="#"><img src="img/fb.png"></a>
+          <a href="#"><img src="img/gplus.png"></a>
+        </div>
+      </div>
+      <div class="profile-name">
+        <p>Name User</p>
+
+        <div class="profile-cash">
+          <input type="number" name="money" value="">
+          <div class="profile-zl-big"></div>
+          <a href="" class="buy-btn">zasil konto</a>
+        </div>
+      </div>
+    </div>
+    <div class="profile-promo">
+      <div class="box-promo">
+        <p><b>Aktywuj kod promocyjny</b></p>
+        <p>Wpisz kod promocyjny  i pobierz dodatkowe pieniążki na swoje konto  lub dostaj pudełko za darmo!</p>
+        <div class="promocode">
+          <input type="text" name="promo" value="" placeholder="wpisz kod ...">
+          <input id="promo" type="button" name="buy-zl" value="aktywacja">
+        </div>
+      </div>
+      <div class="box-promo">
+        <p><b>Skopiuj link</b></p>
+        <p>Zaproś znajomych i zyskaj 10% od kwot ich pierwszych trzech doładowań</p>
+        <div class="promocode">
+          <input  type="text" name="promo" value="https://favebox.pl/89defae676abd" placeholder="">
+          <input id="promo" type="button" name="reflink" value="kopiuj">
+        </div>
+      </div>
+    </div>
+    <div class="box-info">
+      <div class="box-col box-another box-another-m ">
+        <div class="text-box-another-m"><p>otwarte pudła: <span>155</span></p>
+          <p>kwota łączna: <span>1500 zł</span></p></div>
+          <div style="display: inline-block;">
+            <img src="img/my-boxes.png">
+          </div>
+          <div class="text-box-another text-box-st"><p>otwarte pudła: <span>155</span></p>
+            <p>kwota łączna: <span>1500 zł</span></p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="product-btn">
+          <a class="active" href="#all">profil</a>
+          <a href="#all">towary</a>
+          <a href="#all">pudełka</a>
+          <a href="#all">kontrakty</a>
+          <a href="#all">dostawa</a>
+          <a href="#all">opłata</a>
+          <a href="#all">partnerzy</a>
+        </div>
+      </div>
+      <div class="line">
+      </div>
+
+      <div class="container">
+        <h3 class="gold-subtitle">Statystyka pudełek</h3>
+      </div>
+      
+      <div class="container">
+        <div class="box-stat">
+          <div class="box-img">
+            <img src="img/box-stat-01.png" alt="">
+          </div>
+          <div class="stat-info">
+            <div class="stat-price">
+              500 zł
+            </div>
+            <div class="stat-inf">otwarte pudła: <span>155</span>
+              <br>kwota łączna: <span>1500</span></div>
+          </div>
+        </div>
+        <div class="box-stat">
+          <div class="box-img">
+            <img src="img/box-stat-02.png" alt="">
+          </div>
+          <div class="stat-info">
+            <div class="stat-price">
+              500 zł
+            </div>
+            <div class="stat-inf">otwarte pudła: <span>155</span>
+              <br>kwota łączna: <span>1500</span></div>
+          </div>
+        </div>
+        <div class="box-stat">
+          <div class="box-img">
+            <img src="img/box-stat-03.png" alt="">
+          </div>
+          <div class="stat-info">
+            <div class="stat-price">
+              500 zł
+            </div>
+            <div class="stat-inf">otwarte pudła: <span>155</span>
+              <br>kwota łączna: <span>1500</span></div>
+          </div>
+        </div>
+        <div class="box-stat">
+          <div class="box-img">
+            <img src="img/box-stat-04.png" alt="">
+          </div>
+          <div class="stat-info">
+            <div class="stat-price">
+              500 zł
+            </div>
+            <div class="stat-inf">otwarte pudła: <span>155</span>
+              <br>kwota łączna: <span>1500</span></div>
+          </div>
+        </div>
+        <div class="box-stat">
+          <div class="box-img">
+            <img src="img/box-stat-05.png" alt="">
+          </div>
+          <div class="stat-info">
+            <div class="stat-price">
+              500 zł
+            </div>
+            <div class="stat-inf">otwarte pudła: <span>155</span>
+              <br>kwota łączna: <span>1500</span></div>
+          </div>
+        </div>
+        <div class="box-stat">
+          <div class="box-img">
+            <img src="img/box-stat-06.png" alt="">
+          </div>
+          <div class="stat-info">
+            <div class="stat-price">
+              500 zł
+            </div>
+            <div class="stat-inf">otwarte pudła: <span>155</span>
+              <br>kwota łączna: <span>1500</span></div>
+          </div>
+        </div>
+        <div class="box-stat">
+          <div class="box-img">
+            <img src="img/box-stat-07.png" alt="">
+          </div>
+          <div class="stat-info">
+            <div class="stat-price">
+              500 zł
+            </div>
+            <div class="stat-inf">otwarte pudła: <span>155</span>
+              <br>kwota łączna: <span>1500</span></div>
+          </div>
+        </div>
+        <div class="box-stat">
+          <div class="box-img">
+            <img src="img/box-stat-08.png" alt="">
+          </div>
+          <div class="stat-info">
+            <div class="stat-price">
+              500 zł
+            </div>
+            <div class="stat-inf">otwarte pudła: <span>155</span>
+              <br>kwota łączna: <span>1500</span></div>
+          </div>
+        </div>
+        <div class="box-stat">
+          <div class="box-img">
+            <img src="img/box-stat-09.png" alt="">
+          </div>
+          <div class="stat-info">
+            <div class="stat-price">
+              500 zł
+            </div>
+            <div class="stat-inf">otwarte pudła: <span>155</span>
+              <br>kwota łączna: <span>1500</span></div>
+          </div>
+        </div>
+        <div class="box-stat">
+          <div class="box-img">
+            <img src="img/box-stat-01.png" alt="">
+          </div>
+          <div class="stat-info">
+            <div class="stat-price">
+              500 zł
+            </div>
+            <div class="stat-inf">otwarte pudła: <span>155</span>
+              <br>kwota łączna: <span>1500</span></div>
+          </div>
+        </div>
+      </div>
+
+    <div class="line">
+    </div>
+
+      <!-- Timer -->
+      <div class="prod-t timers">
+        <div class="container">
+          <div class="col-4">
+            <div class="timer-title">
+              Online
+            </div>
+            <div class="timer">
+              <div class="t-num"><p>1</p></div>
+              <div class="t-num"><p>2</p></div>
+              <div class="t-num"><p>3</p></div>
+              <div class="t-num"><p>4</p></div>
+              <div class="t-num"><p>5</p></div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="timer-title">
+              użytkowników
+            </div>
+            <div class="timer">
+              <div class="t-num"><p>6</p></div>
+              <div class="t-num"><p>7</p></div>
+              <div class="t-num"><p>8</p></div>
+              <div class="t-num"><p>9</p></div>
+              <div class="t-num"><p>1</p></div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="timer-title">
+              otwarte pudełka
+            </div>
+            <div class="timer">
+              <div class="t-num"><p>1</p></div>
+              <div class="t-num"><p>2</p></div>
+              <div class="t-num"><p>3</p></div>
+              <div class="t-num"><p>4</p></div>
+              <div class="t-num"><p>5</p></div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="timer-title">
+              otwarte kontrakty
+            </div>
+            <div class="timer">
+              <div class="t-num"><p>5</p></div>
+              <div class="t-num"><p>6</p></div>
+              <div class="t-num"><p>7</p></div>
+              <div class="t-num"><p>8</p></div>
+              <div class="t-num"><p>9</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="wrapper">
+        <footer>
+          <div class="container">
+            <div class="about left">
+              <p>Logując się, akceptujesz umowę użytkownika</p>
+              <p><b>Polityka prywatności</b></p>
+            </div>
+            <div class="social-big right">
+              <a href=""><img src="img/inst.png"></a>
+              <a href=""><img src="img/fb.png"></a>
+              <a href=""><img src="img/gplus.png"></a>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+
+
+      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+      <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
+      <script type="text/javascript">
+      $('.nav-toggle').on('click', function(){
+        $('#menu').toggleClass('active');
+      });
+      </script>
+    </body>
+    </html>
