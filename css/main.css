@@ -1523,9 +1523,7 @@ form.formular {
     max-width: 80px;
     margin: 0 auto 5px;
 }
-.box-stat:nth-child(3n+2) {
-    margin: 0 31px 0 26px;
-}
+
 @media (max-width: 768px) {
   /* показываем кнопку для переключения верхней навигации */
   .nav-toggle, .btn-head-m, .money, .btn-m  {
@@ -1659,6 +1657,9 @@ form.formular {
 @media screen and (min-width:1201px){
   .box-col:nth-child(4n+5),.product:nth-child(4n+4) {
     margin-right: 0;
+  }
+  .box-stat:nth-child(3n+2) {
+      margin: 0 31px 0 26px;
   }
 }
 @media (max-width:1200px) and (min-width: 992px){
@@ -2140,6 +2141,14 @@ form.formular {
 h3.gold-subtitle {
     font-size: 18px;
   }
+  .box-stat {
+      width: 46.5%;
+      height: auto;
+      border-radius: 20px;
+  }
+  .box-stat:nth-child(even) {
+    margin: 0 0 0 40px;
+}
 }
 
 @media (max-width:768px) and (min-width: 577px){
@@ -3211,6 +3220,35 @@ input[name="promo"] {
 .f-box-r {
     padding-left: 5px;
 }
+.box-stat {
+    width: 90%;
+    height: 100px;
+    display: block;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box-img img {
+    width: 100%;
+    max-width: 150px;
+    display: inline-block;
+    float: left;
+    margin: -30px 20px -15px -15px;
+}
+.stat-info {
+    width: 65%;
+    height: 100px;
+    margin-left: 35%;
+    text-align: center;
+    padding: 5px 20px;
+}
+.stat-price {
+    font-size: 21px;
+  }
+  .stat-inf {
+      font-size: 18px;
+  }
 }
 
 
@@ -3322,15 +3360,38 @@ input[name="promo"] {
   visibility: visible;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
 }
-.modal-content h2{
+.modal-content h2 {
   font-family: 'Roboto';
   font-size: 20px;
   margin-bottom: 8px;
-
 }
-@media (max-width: 400px) {
+
+@media screen and (max-width: 400px) {
   .modal-container #modal-p-01.active ~ .modal-content, .modal-container #modal-p-01:checked ~ .modal-content {
     left: 5%;
     width: 90%;
   }
+  .stat-inf, .text-box-another-m {
+      font-size: 14px;
+  }
+  .box-stat {
+    height: 80px;
+  }
+  .box-img img {
+    max-width: 130px;
+  }
+  .stat-price {
+    font-size: 18px;
+}
+.text-box-another-m {
+    width: 45%;
+}
+.profile-name {
+    font-size: 21px;
+    width: 60%;
+  }
+  a.buy-btn {
+    font-size: 21px;
+    width: 80%;
+}
 }
