@@ -1483,25 +1483,25 @@ form.formular {
 
 /* Box stat */
 .box-stat {
-    background: #333333;
-    width: 252px;
-    height: 79px;
-    display: inline-block;
-    border-radius: 15px;
-    margin-top: 30px;
+  background: #333333;
+  width: 252px;
+  height: 79px;
+  display: inline-block;
+  border-radius: 15px;
+  margin-top: 30px;
 }
 .box-img img{
-    width: 100%;
-    max-width: 106px;
-    display: inline-block;
-    float: left;
-    margin: -15px 20px -15px -15px;
+  width: 100%;
+  max-width: 106px;
+  display: inline-block;
+  float: left;
+  margin: -15px 20px -15px -15px;
 }
 .stat-info {
-    width: 65%;
-    margin-left: 35%;
-    text-align: center;
-    padding: 5px 20px;
+  width: 65%;
+  margin-left: 35%;
+  text-align: center;
+  padding: 5px 20px;
 }
 .stat-inf{
   font-size: 13px;
@@ -1512,15 +1512,15 @@ form.formular {
   font-weight: 600;
 }
 .stat-price {
-    font-size: 20px;
-    background: #C6C6C6;
-    color: #333333;
-    border-radius: 6px;
-    font-weight: 500;
-    box-shadow: 0 0 5px #000;
-    width: 100%;
-    max-width: 80px;
-    margin: 0 auto 5px;
+  font-size: 20px;
+  background: #C6C6C6;
+  color: #333333;
+  border-radius: 6px;
+  font-weight: 500;
+  box-shadow: 0 0 5px #000;
+  width: 100%;
+  max-width: 80px;
+  margin: 0 auto 5px;
 }
 .history {
   background: #333333;
@@ -1529,33 +1529,33 @@ form.formular {
   padding: 10px 15px;
 }
 .hist td {
-    padding: 4px 0px;
+  padding: 4px 0px;
 }
 .hist th {
-    color: #F4A321;
-    width: 146px;
-    margin-right: 7px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 500;
+  color: #F4A321;
+  width: 146px;
+  margin-right: 7px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
 }
 .hist th:nth-child(4), .pay, .data, .hist p:nth-child(4){
   width: 200px!important;
 }
 .hist p {
-    width: 125px;
-    background: #2D2D2D;
-    margin: 0 auto;
-    font-size: 16px;
-    text-align: center;
-    padding: 6px 8px;
-    text-transform: uppercase;
+  width: 125px;
+  background: #2D2D2D;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+  padding: 6px 8px;
+  text-transform: uppercase;
 }
 .pay img {
-    width: 129px;
-    height: 22px;
-    margin: 0 auto;
+  width: 129px;
+  height: 22px;
+  margin: 0 auto;
 }
 .good-pay{
   color: #009245;
@@ -1565,12 +1565,28 @@ form.formular {
 }
 
 table.hist {
-   width: 100%;
-   margin:0;
-   padding:0;
-   border-collapse: collapse;
-   border-spacing: 0;
- }
+  width: 100%;
+  margin:0;
+  padding:0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.history.partner {
+  width: 63%;
+  float:left;
+}
+.promo2 {
+  margin-left: 8px;
+}
+.hist.partn p {
+  width: 95%;
+  background: #2D2D2D;
+  margin: 0 auto;
+  font-size: 13px;
+  text-align: center;
+  padding: 6px 8px;
+  text-transform: none;
+}
 
 @media (max-width: 768px) {
   /* показываем кнопку для переключения верхней навигации */
@@ -1706,7 +1722,7 @@ table.hist {
     margin-right: 0;
   }
   .box-stat:nth-child(3n+2) {
-      margin: 0 31px 0 26px;
+    margin: 0 31px 0 26px;
   }
 }
 @media (max-width:1200px) and (min-width: 992px){
@@ -1921,7 +1937,7 @@ table.hist {
     width: 166px;
   }
   .profile-cash input {
-      width: 130px;
+    width: 130px;
   }
   .social-profile {
     font-size: 13px;
@@ -1932,55 +1948,55 @@ table.hist {
   .product-btn a {
     font-size: 14px;
     width: 100px;
-}
-.formular input {
+  }
+  .formular input {
     font-size: 13px;
     padding: 3px 4px;
-}
-.box-stat {
+  }
+  .box-stat {
     height: 75px;
     border-radius: 14px;
     margin-top: 25px;
     width: 230px;
-}
-.box-stat:nth-child(3n+2) {
+  }
+  .box-stat:nth-child(3n+2) {
     margin: 0 21px 0 16px;
-}
-.box-img img {
+  }
+  .box-img img {
     max-width: 95px;
     margin: -10px 5px -15px -5px;
-}
-.stat-info {
+  }
+  .stat-info {
     width: 65%;
     margin-left: 35%;
     text-align: center;
     padding: 5px 0px;
-}
-.stat-price {
+  }
+  .stat-price {
     font-size: 18px;
     line-height: 1.3em;
   }
   .hist th {
-      width: 110px;
-      margin-right: 7px;
-      font-size: 15px;
+    width: 110px;
+    margin-right: 7px;
+    font-size: 15px;
   }
   .hist th:nth-child(4), .pay, .data, .hist p:nth-child(4){
     width: 160px!important;
   }
   .hist p {
-      width: 125px;
-      background: #2D2D2D;
-      margin: 0 auto;
-      font-size: 16px;
-      text-align: center;
-      padding: 4px 8px;
-      text-transform: uppercase;
+    width: 125px;
+    background: #2D2D2D;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    padding: 4px 8px;
+    text-transform: uppercase;
   }
   .pay img {
-      width: 129px;
-      height: 22px;
-      margin: 0 auto;
+    width: 129px;
+    height: 22px;
+    margin: 0 auto;
   }
 }
 @media (max-width:991px) and (min-width: 769px){
@@ -2142,7 +2158,7 @@ table.hist {
     font-size: 22px;
   }
   .profile-avatar {
-      width: 30%;
+    width: 30%;
   }
   .box-col.box-another {
     width: 118px;
@@ -2156,9 +2172,9 @@ table.hist {
     float: none;
   }
   .box-col.box-another-m {
-      width: 254px;
-      min-width: 254px;
-      margin: 0 0 20px;
+    width: 254px;
+    min-width: 254px;
+    margin: 0 0 20px;
   }
   .my-friends {
     padding-top: 10px;
@@ -2188,50 +2204,58 @@ table.hist {
     vertical-align: middle;
   }
   .profile-info {
-      width: 50%;
-      float: left;
+    width: 50%;
+    float: left;
   }
   .profile-promo {
     width: 50%;
     max-width: 296px;
     float: left;
-}
-.box-info {
+  }
+  .box-info {
     width: 100%;
     float: left;
-}
-.social-profile {
+  }
+  .social-profile {
     font-size: 14px;
-}
-.product-btn a{
-  width: 13%;
-  font-size: 13px;
-}
-h3.gold-subtitle {
+  }
+  .product-btn a{
+    width: 13%;
+    font-size: 13px;
+  }
+  h3.gold-subtitle {
     font-size: 18px;
   }
   .box-stat {
-      width: 46.5%;
-      height: auto;
-      border-radius: 20px;
+    width: 46.5%;
+    height: auto;
+    border-radius: 20px;
   }
   .box-stat:nth-child(even) {
     margin: 0 0 0 40px;
-}
+  }
 
-.hist th {
+  .hist th {
     width: 105px;
     margin-right: 7px;
     font-size: 15px;
-}
-.hist th:nth-child(4), .pay, .data, .hist p:nth-child(4){
-  width: 160px!important;
-}
-.hist p {
+  }
+  .hist th:nth-child(4), .pay, .data, .hist p:nth-child(4){
+    width: 160px!important;
+  }
+  .hist p {
     width: 110px;
     font-size: 15px;
     padding: 4px 8px;
-}
+  }
+  .history.partner {
+    width: 100%;
+    float: none;
+  }
+  .promo2 {
+    margin-left: 8px;
+    margin-top: 14px;
+  }
 }
 
 @media (max-width:768px) and (min-width: 577px){
@@ -2660,26 +2684,26 @@ h3.gold-subtitle {
     vertical-align: middle;
   }
   .profile-info {
-      width: 50%;
-      float: left;
+    width: 50%;
+    float: left;
   }
   .profile-promo {
     width: 50%;
     max-width: 296px;
     float: left;
-}
-.box-info {
+  }
+  .box-info {
     width: 100%;
     float: left;
-}
-.social-profile {
+  }
+  .social-profile {
     font-size: 14px;
-}
-.product-btn a{
-  width: 13%;
-  font-size: 13px;
-}
-h3.gold-subtitle {
+  }
+  .product-btn a{
+    width: 13%;
+    font-size: 13px;
+  }
+  h3.gold-subtitle {
     font-size: 18px;
   }
   .text-box-another-m {
@@ -2688,48 +2712,66 @@ h3.gold-subtitle {
     width: 115px;
     font-size: 16px;
     text-align: center;
-}
-.box-col.box-another {
+  }
+  .box-col.box-another {
     width: 140px;
     min-width: 139px;
     height: 180px;
     margin-right: 0;
     margin-left: 10px;
-}
-.box-col.box-another-m {
+  }
+  .box-col.box-another-m {
     width: 254px;
     min-width: 254px;
     margin: 0 0 20px;
     height: auto;
     border-radius: 16px;
-}
-.hist th {
+  }
+  .hist th {
     width: 13%;
     font-size: 14px;
-}
-.hist p{
-  font-size: 14px;
-}
-.hist th:nth-child(4), .pay, .data, .hist p:nth-child(4){
-  width: 125px!important;
-}
-.pay img {
+  }
+  .hist p{
+    font-size: 14px;
+  }
+  .hist th:nth-child(4), .pay, .data, .hist p:nth-child(4){
+    width: 125px!important;
+  }
+  .pay img {
     width: 110px;
     height: 19px;
   }
-table td:before {
-  content: attr(data-label);
-  float: left;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 14px;
-    }
-table.hist th {
-  display: none;
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #F4A321;
   }
-table.hist tr,table.hist td {
-      display: block;
-    }
+  table.hist th {
+    display: none;
+  }
+  table.hist tr,table.hist td {
+    display: block;
+  }
+  .history.partner {
+    width: 100%;
+    float: none;
+  }
+  .promo2 {
+    margin-left: 8px;
+    margin-top: 14px;
+  }
+  .hist.partn p {
+    width: 90%;
+    background: #2D2D2D;
+    font-size: 13px;
+    text-align: right;
+    padding: 6px 8px;
+    text-transform: none;
+    margin-left: 10%;
+  }
 }
 @media (max-width: 578px) {
   .container {
@@ -2744,7 +2786,7 @@ table.hist tr,table.hist td {
     right: 30%;
     width: 60px;
     height: 60px;
-}
+  }
   .logo {
     max-width: 160px;
     width: 100%;
@@ -3044,10 +3086,10 @@ table.hist tr,table.hist td {
     padding: 0 0 20px 0;
   }
   .nav-toggle {
-      width: 46px;
-      height: 46px;
-      top: 23px;
-      right: 50px;
+    width: 46px;
+    height: 46px;
+    top: 23px;
+    right: 50px;
   }
   .nav-toggle span {
     top: 22px;
@@ -3237,154 +3279,173 @@ table.hist tr,table.hist td {
     font-size: 18px;
     text-align: center;
   }
-/*
+  /*
   .box-col.box-another-m img {
-    width: 130%;
-    display: inline-block;
-    vertical-align: middle;
-  }
-  */
-  .box-col.box-another-m img {
-    width: 100%;
-    display: inline-block;
-    vertical-align: middle;
+  width: 130%;
+  display: inline-block;
+  vertical-align: middle;
 }
-  .text-box-another-m span {
-    color: #F2AA19;
-    font-weight: bold;
-  }
-  .product-name p {
-    font-size: 18px;
-  }
-  h3.gold-subtitle {
-    font-size: 24px;
-  }
-  .profile-info {
-      width: 100%;
-      float: left;
-  }
-  .profile-avatar {
-      width: 35%;
-      display: inline-block;
-      vertical-align: middle;
-      margin-right: 10px;
-  }
-  .profile-name {
-      font-size: 25px;
-      display: inline-block;
-      vertical-align: middle;
-      width: 61%;
-  }
-  .profile-promo {
-    width: 100%;
-    max-width: 100%;
+*/
+.box-col.box-another-m img {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.text-box-another-m span {
+  color: #F2AA19;
+  font-weight: bold;
+}
+.product-name p {
+  font-size: 18px;
+}
+h3.gold-subtitle {
+  font-size: 24px;
+}
+.profile-info {
+  width: 100%;
+  float: left;
+}
+.profile-avatar {
+  width: 35%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.profile-name {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 61%;
+}
+.profile-promo {
+  width: 100%;
+  max-width: 100%;
 }
 .box-promo {
-    width: 100%;
-    min-width: 320px;
-    height: auto;
-    font-size: 14px;
-    margin: 10px 0;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  font-size: 14px;
+  margin: 10px 0;
 }
 .box-promo b {
-    font-size: 16px;
+  font-size: 16px;
 }
 input[name="promo"] {
-    font-size: 14px;
-    padding: 5px 12px;
-    width: 74%;
-    height: auto;
+  font-size: 14px;
+  padding: 5px 12px;
+  width: 74%;
+  height: auto;
 }
 #promo {
-    padding: 5px 12px;
-    font-size: 14px;
-    width: 25%;
-    height: auto;
-    line-height: 1.3em;
+  padding: 5px 12px;
+  font-size: 14px;
+  width: 25%;
+  height: auto;
+  line-height: 1.3em;
 }
 .box-info {
-    width: 100%;
-  }
-  .box-col.box-another-m {
-      width: 100%;
-      min-width: 100%;
-      height: auto;
-      float: none;
-      margin: 0 0 20px;
-      padding: 10px 10px 0;
-      border-radius: 14px;
-  }
+  width: 100%;
+}
+.box-col.box-another-m {
+  width: 100%;
+  min-width: 100%;
+  height: auto;
+  float: none;
+  margin: 0 0 20px;
+  padding: 10px 10px 0;
+  border-radius: 14px;
+}
 .text-box-another-m {
-    width: 50%;
-  }
-  .product-btn a {
-    display: inline-block;
-    margin: 5px auto;
-    width: 49%;
-    vertical-align: top;
+  width: 50%;
+}
+.product-btn a {
+  display: inline-block;
+  margin: 5px auto;
+  width: 49%;
+  vertical-align: top;
 }
 .f-box-l{
-    padding-right: 5px;
+  padding-right: 5px;
 }
 .f-box-r {
-    padding-left: 5px;
+  padding-left: 5px;
 }
 .box-stat {
-    width: 90%;
-    height: 100px;
-    display: block;
-    border-radius: 15px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 90%;
+  height: 100px;
+  display: block;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .box-img img {
-    width: 100%;
-    max-width: 150px;
-    display: inline-block;
-    float: left;
-    margin: -30px 20px -15px -15px;
+  width: 100%;
+  max-width: 150px;
+  display: inline-block;
+  float: left;
+  margin: -30px 20px -15px -15px;
 }
 .stat-info {
-    width: 65%;
-    height: 100px;
-    margin-left: 35%;
-    text-align: center;
-    padding: 5px 20px;
+  width: 65%;
+  height: 100px;
+  margin-left: 35%;
+  text-align: center;
+  padding: 5px 20px;
 }
 .stat-price {
-    font-size: 21px;
-  }
-  .stat-inf {
-      font-size: 18px;
-  }
-  .hist th {
-      width: 13%;
-      font-size: 14px;
-  }
-  .hist p{
-    font-size: 14px;
-  }
-  .hist th:nth-child(4), .pay, .data, .hist p:nth-child(4){
-    width: 125px!important;
-  }
-  .pay img {
-      width: 110px;
-      height: 19px;
-    }
-  table td:before {
-    content: attr(data-label);
-    float: left;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
-      }
-  table.hist th {
-    display: none;
-    }
-  table.hist tr,table.hist td {
-        display: block;
-      }
+  font-size: 21px;
+}
+.stat-inf {
+  font-size: 18px;
+}
+.hist th {
+  width: 13%;
+  font-size: 14px;
+}
+.hist p{
+  font-size: 14px;
+}
+.hist th:nth-child(4), .pay, .data, .hist p:nth-child(4){
+  width: 125px!important;
+}
+.pay img {
+  width: 110px;
+  height: 19px;
+}
+table td:before {
+  content: attr(data-label);
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  color: #F4A321;
+}
+table.hist th {
+  display: none;
+}
+table.hist tr,table.hist td {
+  display: block;
+}
+
+.history.partner {
+  width: 100%;
+  float: none;
+}
+.promo2 {
+  margin-left: 8px;
+  margin-top: 14px;
+}
+.hist.partn p {
+  width: 90%;
+  background: #2D2D2D;
+  font-size: 13px;
+  text-align: right;
+  padding: 6px 8px;
+  text-transform: none;
+  margin-left: 10%;
+}
 }
 
 
@@ -3508,7 +3569,7 @@ input[name="promo"] {
     width: 90%;
   }
   .stat-inf, .text-box-another-m {
-      font-size: 14px;
+    font-size: 14px;
   }
   .box-stat {
     height: 80px;
@@ -3518,16 +3579,16 @@ input[name="promo"] {
   }
   .stat-price {
     font-size: 18px;
-}
-.text-box-another-m {
+  }
+  .text-box-another-m {
     width: 45%;
-}
-.profile-name {
+  }
+  .profile-name {
     font-size: 21px;
     width: 60%;
   }
   a.buy-btn {
     font-size: 21px;
     width: 80%;
-}
+  }
 }
