@@ -1021,7 +1021,6 @@ ul.pagination.small {
 }
 .line{
   height: 10px;
-
 }
 
 /* podpowiedz */
@@ -1523,6 +1522,55 @@ form.formular {
     max-width: 80px;
     margin: 0 auto 5px;
 }
+.history {
+  background: #333333;
+  display: block;
+  border-radius: 19px;
+  padding: 10px 15px;
+}
+.hist td {
+    padding: 4px 0px;
+}
+.hist th {
+    color: #F4A321;
+    width: 146px;
+    margin-right: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+.hist th:nth-child(4), .pay, .data, .hist p:nth-child(4){
+  width: 200px!important;
+}
+.hist p {
+    width: 125px;
+    background: #2D2D2D;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    padding: 6px 8px;
+    text-transform: uppercase;
+}
+.pay img {
+    width: 129px;
+    height: 22px;
+    margin: 0 auto;
+}
+.good-pay{
+  color: #009245;
+}
+.bad-pay{
+  color: #D82330;
+}
+
+table.hist {
+   width: 100%;
+   margin:0;
+   padding:0;
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
 
 @media (max-width: 768px) {
   /* показываем кнопку для переключения верхней навигации */
@@ -1652,7 +1700,6 @@ form.formular {
     width: 100%;
     padding: 0;
   }
-
 }
 @media screen and (min-width:1201px){
   .box-col:nth-child(4n+5),.product:nth-child(4n+4) {
@@ -1913,6 +1960,28 @@ form.formular {
     font-size: 18px;
     line-height: 1.3em;
   }
+  .hist th {
+      width: 110px;
+      margin-right: 7px;
+      font-size: 15px;
+  }
+  .hist th:nth-child(4), .pay, .data, .hist p:nth-child(4){
+    width: 160px!important;
+  }
+  .hist p {
+      width: 125px;
+      background: #2D2D2D;
+      margin: 0 auto;
+      font-size: 16px;
+      text-align: center;
+      padding: 4px 8px;
+      text-transform: uppercase;
+  }
+  .pay img {
+      width: 129px;
+      height: 22px;
+      margin: 0 auto;
+  }
 }
 @media (max-width:991px) and (min-width: 769px){
   .logo {
@@ -2148,6 +2217,20 @@ h3.gold-subtitle {
   }
   .box-stat:nth-child(even) {
     margin: 0 0 0 40px;
+}
+
+.hist th {
+    width: 105px;
+    margin-right: 7px;
+    font-size: 15px;
+}
+.hist th:nth-child(4), .pay, .data, .hist p:nth-child(4){
+  width: 160px!important;
+}
+.hist p {
+    width: 110px;
+    font-size: 15px;
+    padding: 4px 8px;
 }
 }
 
@@ -2620,7 +2703,33 @@ h3.gold-subtitle {
     height: auto;
     border-radius: 16px;
 }
-
+.hist th {
+    width: 13%;
+    font-size: 14px;
+}
+.hist p{
+  font-size: 14px;
+}
+.hist th:nth-child(4), .pay, .data, .hist p:nth-child(4){
+  width: 125px!important;
+}
+.pay img {
+    width: 110px;
+    height: 19px;
+  }
+table td:before {
+  content: attr(data-label);
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+    }
+table.hist th {
+  display: none;
+  }
+table.hist tr,table.hist td {
+      display: block;
+    }
 }
 @media (max-width: 578px) {
   .container {
@@ -3249,6 +3358,33 @@ input[name="promo"] {
   .stat-inf {
       font-size: 18px;
   }
+  .hist th {
+      width: 13%;
+      font-size: 14px;
+  }
+  .hist p{
+    font-size: 14px;
+  }
+  .hist th:nth-child(4), .pay, .data, .hist p:nth-child(4){
+    width: 125px!important;
+  }
+  .pay img {
+      width: 110px;
+      height: 19px;
+    }
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+      }
+  table.hist th {
+    display: none;
+    }
+  table.hist tr,table.hist td {
+        display: block;
+      }
 }
 
 
