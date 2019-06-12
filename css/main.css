@@ -1998,6 +1998,10 @@ table.hist {
     height: 22px;
     margin: 0 auto;
   }
+  .modal-btn {
+      font-size: 21px;
+      line-height: 1.3em;
+}
 }
 @media (max-width:991px) and (min-width: 769px){
   .logo {
@@ -2256,6 +2260,10 @@ table.hist {
     margin-left: 8px;
     margin-top: 14px;
   }
+  .modal-btn {
+      font-size: 18px;
+      line-height: 1.4em;
+}
 }
 
 @media (max-width:768px) and (min-width: 577px){
@@ -3446,6 +3454,10 @@ table.hist tr,table.hist td {
   text-transform: none;
   margin-left: 10%;
 }
+.modal-btn {
+    font-size: 18px;
+    line-height: 1.4em;
+}
 }
 
 
@@ -3591,4 +3603,98 @@ table.hist tr,table.hist td {
     font-size: 21px;
     width: 80%;
   }
+  .modal-btn {
+      font-size: 18px;
+      line-height: 1.4em;
+  }
 }
+
+
+/* Начало стилей модальное окно 2  */
+.Window {
+ position: fixed;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ background: rgba(0,0,0,0.7);
+ z-index: 99999;
+ -webkit-transition: opacity 400ms ease-in;
+ -moz-transition: opacity 400ms ease-in;
+ transition: opacity 400ms ease-in;
+ display: none;
+ pointer-events: none;
+}
+
+.Window:target {
+ display: block;
+ pointer-events: auto;
+}
+
+.Window > div {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 5px;
+    background: url(../img/item-empty.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    transition: 2s ease-in-out;
+}
+img.tovar {
+    width: 100px;
+    position: absolute;
+    left: 33%;
+    top: 22%;
+}
+.fa-chevron-left:before {
+    content: "\f053";
+    font-size: 14px;
+}
+
+.close {
+  line-height: 25px;
+  position: absolute;
+  right: -20px;
+  text-align: center;
+  top: -37px;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+  background: #C6C6C6;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 40px;
+  text-shadow: 0 0 3px #333;
+}
+.modal-btn {
+    background-image: linear-gradient(to right, rgb(179,115,7) 0%, rgb(191,129,18) 12%, rgb(239,194,56) 31%, rgb(227,177,41) 40%, rgb(212,133,10) 70%, rgb(177,115,7) 90%, rgb(228,202,50) 120%);
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    padding: 4px 15px;
+    width: 100%;
+    height: 34px;
+    display: block;
+    position: relative;
+    top: -60px;
+}
+a.modal-btn:hover{
+    background-position: right center;
+}
+.modal-btn2 {
+    top: 150px;
+}
+.modal-btn3 {
+    top: 160px;
+    background: #636363;
+}
+
+/* Окончание стилей */
