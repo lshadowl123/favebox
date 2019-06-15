@@ -1716,6 +1716,9 @@ table.hist {
     width: 100%;
     padding: 0;
   }
+  .gallery .item{
+  height: 200px;
+}
 }
 @media screen and (min-width:1201px){
   .box-col:nth-child(4n+5),.product:nth-child(4n+4) {
@@ -1869,10 +1872,10 @@ table.hist {
   .item {
     display: inline-block;
     margin-right: -1px!important;
-    height: 157px!important;
+    height: 277px!important;
   }
   .item img {
-    width: 145px;
+    width: 100%;
   }
   .product {
     width: 174px;
@@ -2126,7 +2129,7 @@ table.hist {
     font-size: 15px;
   }
   .item img {
-    width: 170px;
+    width: 100%;
   }
   .item {
     height: 172px;
@@ -2954,7 +2957,7 @@ table.hist {
     background-position: 50%;
   }
   .gallery .item {
-    height: 463px;
+    height: 100%;
     border-radius: 44px!important;
   }
   .guarantee h2 {
