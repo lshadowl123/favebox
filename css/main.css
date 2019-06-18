@@ -347,7 +347,7 @@ nav ul li a:hover {
   margin-bottom: 15px;
   margin-right: 10px;
   padding: 0;
-}
+}©
 .price-box{
   background: #C6C6C6;
   font-size: 21px;
@@ -359,6 +359,12 @@ nav ul li a:hover {
   font-family: Myriad Pro;
   font-weight: 600;
   line-height: 1.6em;
+}
+.blue > .price-box {
+    width: 40%;
+}
+.padd-80 {
+  padding-top: 80px;
 }
 .btn-box a{
   color: rgba(0,0,0,.7);
@@ -940,6 +946,9 @@ ul.info {
   margin-bottom: 15px;
   margin-right: 10px;
   padding: 0;
+}
+.product.blue {
+    background-image: radial-gradient(circle at center,rgba(24, 47, 214, 0.4) 0,transparent 70%);
 }
 .img-prod img {
   margin-top: 11px;
@@ -2267,6 +2276,9 @@ table.hist {
       font-size: 18px;
       line-height: 1.4em;
 }
+.Window > div {
+  margin: 10% auto!important;
+}
 }
 
 @media (max-width:768px) and (min-width: 577px){
@@ -2782,6 +2794,9 @@ table.hist {
     padding: 6px 8px;
     text-transform: none;
     margin-left: 10%;
+  }
+  .Window > div {
+    margin: 17% auto!important;
   }
 }
 @media (max-width: 578px) {
@@ -3461,6 +3476,9 @@ table.hist tr,table.hist td {
     font-size: 18px;
     line-height: 1.4em;
 }
+.Window > div {
+  margin: 15% auto!important;
+}
 }
 
 
@@ -3638,7 +3656,7 @@ table.hist tr,table.hist td {
     width: 300px;
     height: 200px;
     position: relative;
-    margin: 10% auto;
+    margin: 5% auto;
     padding: 20px;
     border-radius: 5px;
     background: url(../img/item-empty.png);
