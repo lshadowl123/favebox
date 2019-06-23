@@ -1,4 +1,3 @@
-jQuery(function($) {
 var owl = $('.slider-col');
 owl.owlCarousel({
     items:5,
@@ -9,9 +8,8 @@ owl.owlCarousel({
     autoplayHoverPause:true
 });
 $('.play').on('click',function(){
-    owl.trigger('play.owl.autoplay',[3000])
+    owl.trigger('play.owl.autoplay',[8000])
 })
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 })
-  });

@@ -1,4 +1,3 @@
-jQuery(function($) {
 var owl = $('.slider-col');
 owl.owlCarousel({
     items:50,
@@ -14,4 +13,3 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 })
-  });

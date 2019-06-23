@@ -1596,6 +1596,44 @@ table.hist {
   padding: 6px 8px;
   text-transform: none;
 }
+/* Roulette */
+.slider.roulette {
+    background: linear-gradient(to right, rgba(26,26,26,1) 15%, rgba(26,26,26,0.4) 50%, rgba(26,26,26,1) 85%);
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 145px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.slider.roulette:after {
+    background: url(../img/item-empty.png);
+    width: 200px;
+    height: 200px;
+    content: '';
+    background-size: 200px;
+    position: fixed;
+    top: 140px;
+    right: 45%;
+    z-index: 0;
+}
+.slide-track.ruolet {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+    position: relative;
+    z-index: 1;
+}
+.slide.roul img {
+    position: relative;
+    z-index: 2;
+}
+.slide.roul {
+    width: 145px;
+    height: 145px;
+    padding: 10px;
+}
 
 @media (max-width: 768px) {
   /* показываем кнопку для переключения верхней навигации */
