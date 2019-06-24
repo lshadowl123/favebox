@@ -1606,7 +1606,7 @@ table.hist {
     position: relative;
     width: 100%;
 }
-.slider.roulette:after {
+/* .slider.roulette:after {
     background: url(../img/item-empty.png);
     width: 200px;
     height: 200px;
@@ -1616,7 +1616,7 @@ table.hist {
     top: 140px;
     right: 45%;
     z-index: 0;
-}
+} */
 .slide-track.ruolet {
     -webkit-animation: scroll 40s linear infinite;
     animation: scroll 40s linear infinite;
@@ -1633,6 +1633,15 @@ table.hist {
     width: 145px;
     height: 145px;
     padding: 10px;
+}
+.bg-box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    right: 45%;
+    top: 135px;
+    pointer-events: none;
 }
 
 @media (max-width: 768px) {
