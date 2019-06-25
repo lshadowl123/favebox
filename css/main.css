@@ -1640,8 +1640,42 @@ table.hist {
     position: absolute;
     z-index: 1;
     right: 45%;
-    top: 135px;
+    top: 175px;
     pointer-events: none;
+}
+.box-price {
+    position: absolute;
+    z-index: 2;
+    right: 48.8%;
+    top: 165px;
+    pointer-events: none;
+    background: #c6c6c6;
+    padding: 3px 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.5);
+    color: #333333;
+    font-weight: 500;
+}
+.m40{
+    margin: 40px 0;
+}
+.box-btn {
+    background-image: linear-gradient(to right, rgb(179,115,7) 0%, rgb(191,129,18) 12%, rgb(239,194,56) 31%, rgb(227,177,41) 40%, rgb(212,133,10) 70%, rgb(177,115,7) 90%, rgb(228,202,50) 120%);
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    padding: 4px 15px;
+    width: 140px;
+    height: 36px;
+    position: absolute;
+    display: inline-block;
+    top: 93%;
+    z-index: 2;
+    text-align: center;
+    left: 43.3%;
 }
 
 @media (max-width: 768px) {
