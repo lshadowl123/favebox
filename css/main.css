@@ -1817,6 +1817,12 @@ table.hist {
   .box-stat:nth-child(3n+2) {
     margin: 0 31px 0 26px;
   }
+  .box-btn {
+    left: 44.85%;
+  }
+  .box-price {
+    right: 48.3%;
+  }
 }
 @media (max-width:1200px) and (min-width: 992px){
   .profile {
