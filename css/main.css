@@ -836,26 +836,45 @@ footer {
   margin-bottom: 18px;
   margin-top: 6px;
 }
-.item{
-  display:inline-block;
-  margin-right:-1px!important;
-  height: 175px;
+.item {
+    display: inline-block;
+    margin-right: -1px!important;
+    height: 175px;
+    width: 162px;
+    position: relative;
+    background: url(../img/item-empty.png);
+    background-size: 162px;
+    background-repeat: no-repeat;
+}
+.item-ico {
+    width: 80px;
+    margin: 40px;
+    position: absolute;
+    z-index: 2;
+}
+.bg-item {
+    width: 161px;
+    height: 161px;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
 }
 .close-btn {
-  position: relative;
-  float: right;
-  right: 10px;
-  bottom: 150px;
-  width: 30px;
-  height: 30px;
-  font-size: 18px;
-  line-height: 30px;
-  color: #333333;
-  background: #C6C6C6;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 40px;
-  text-shadow: 0 0 3px #333;
+    position: absolute;
+    z-index: 3;
+    float: right;
+    right: 10px;
+    bottom: 140px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+    background: #C6C6C6;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 40px;
+    text-shadow: 0 0 3px #333;
 }
 a.close-btn:hover {
   transform: scale(1.2);
