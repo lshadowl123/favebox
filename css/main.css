@@ -1814,6 +1814,73 @@ table.hist {
 }
 */
 
+/* Online chat */
+.chat {
+    background: #262626;
+    position: fixed;
+    top: 30%;
+    right: 15%;
+    width: 240px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.chat-title {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.text-chat {
+    background: #2D2D2D;
+    padding: 10px 5px;
+}
+
+.chat-date {
+    text-align: center!important;
+    color: #666666;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    font-size: 11px;
+}
+
+.text-chat p:nth-child(odd) {
+    text-align: right;
+    margin: 0 0 20px;
+}
+
+.text-chat p:nth-child(even) {
+    text-align: left;
+    margin: 0 0 20px;
+}
+.send-chat input {
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    margin: 10px 5px 0;
+}
+.send-chat {
+    display: block;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.text-chat {
+    background: #2D2D2D;
+    padding: 10px 5px;
+    overflow: scroll;
+    max-height: 270px;
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    background: #303030;
+}
+::-webkit-scrollbar-thumb {
+    background: #424242;
+}
 @media (max-width: 768px) {
   /* показываем кнопку для переключения верхней навигации */
   .nav-toggle, .btn-head-m, .money, .btn-m  {
