@@ -560,7 +560,9 @@ img.l-ava{
 .l-ava:hover {
     opacity: 1;
 }
-
+.slide:hover .l-1 {
+    display: none!Important;
+}
 
 .l-1 .l-ava:hover {
 }
