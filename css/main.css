@@ -1881,6 +1881,29 @@ table.hist {
 ::-webkit-scrollbar-thumb {
     background: #424242;
 }
+.chatbtns {
+  text-align: right;
+  display: block;
+  margin-right: 0;
+  width: 40px;
+  float: right;
+}
+.chat-close {
+    top: 75%!important;
+}
+.chat-btn, .chat-close {
+    background: #2D2D2D;
+    position: fixed;
+    right: 15%;
+    top: 70%;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.2);
+}
 @media (max-width: 768px) {
   /* показываем кнопку для переключения верхней навигации */
   .nav-toggle, .btn-head-m, .money, .btn-m  {
@@ -2330,6 +2353,15 @@ table.hist {
   .modal-btn {
       font-size: 21px;
       line-height: 1.3em;
+}
+.chat {
+    position: fixed;
+    top: 30%;
+    right: 1%;
+    width: 280px;
+}
+.chat-btn, .chat-close {
+  right: 1%;
 }
 }
 @media (max-width:991px) and (min-width: 769px){
