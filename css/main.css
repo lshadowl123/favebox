@@ -1355,6 +1355,9 @@ section {
   vertical-align: middle;
   margin-right: 17px;
 }
+.profile-avatar img {
+    border-radius: 50%;
+}
 .profile-name{
   font-size: 25px;
   display: inline-block;
