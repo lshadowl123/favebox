@@ -1355,7 +1355,7 @@ section {
   vertical-align: middle;
   margin-right: 17px;
 }
-.profile-avatar img {
+.profile-avatar img, .profile-img img {
     border-radius: 50%;
 }
 .profile-name{
@@ -2912,8 +2912,10 @@ table.hist {
   }
   .item {
     height: 300px;
-    width: 49%;
+    /* width: 49%; */
+    max-width: 285px;
     margin-bottom: 20px;
+    background-size: 285px!important;
   }
   .item:nth-child(odd) {
     margin-right: 5px!important;
